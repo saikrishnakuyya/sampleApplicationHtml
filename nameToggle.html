@@ -7,28 +7,36 @@
 <body>
     <div class="dom">
         <div>
-            <h1 id="heading1" >
-                Saikrishna      
+            <h1 id="heading1">
+                Saikrishna
             </h1>
         </div>
 
-        <input type="button" value="ToggleNames" id="name-change" />
+        <input type="button" value="prev" id="prev-name">
+        <input type="button" value="next" id="next-name" />
 
         <select>
-            <option value="SaiKrishna">SaiKrishna</option>
-            <option value="Nikhil" selected>Nikhil</option>
+            <option value="Nikhil">Nikhil</option>
+            <option value="SaiKrishna" selected>SaiKrishna</option>
+            <option value="Foo"> Foo</option>
+            <option value="Bar"> Bar</option>
         </select>
     </div>
 
-    <script src="./nameToggle.js" type="application/javascript"> </script>
+    <!-- <script src="./nameToggle.js" type="application/javascript"> </script> -->
+    <script src="./dist/dist.js" type="application/javascript"> </script>
+
     <style>
-        .dom{
+        .dom {
             background-color: cyan
         }
-        #name-change{
+
+        #name-change {
             background-color: yellow
         }
-        #heading1{
-            color:brown        }
+
+        #heading1 {
+            color: brown
+        }
     </style>
 </body>

@@ -1,0 +1,25 @@
+{
+  "name": "sampleApplicationHtml",
+  "version": "1.0.0",
+  "description": "working with actions on html",
+  "main": "nameToggle.js",
+  "scripts": {
+    "build": "webpack --entry ./nameTogglemvc.js -o dist/dist.js --hot --watch --mode none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilkuyya/sampleApplicationHtml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilkuyya/sampleApplicationHtml/issues"
+  },
+  "homepage": "https://github.com/nikhilkuyya/sampleApplicationHtml#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}
